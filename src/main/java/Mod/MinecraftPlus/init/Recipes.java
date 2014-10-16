@@ -25,6 +25,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(ModItems.COPPER_SHOVEL, 1), " C ", " S ", " S ", 'C', ModItems.COPPER_INGOT, 'S', stick);
         GameRegistry.addRecipe(new ItemStack(ModItems.COPPER_SWORD, 1), " C ", " C ", " S ", 'C', ModItems.COPPER_INGOT, 'S', stick);
         GameRegistry.addRecipe(new ItemStack(ModBlocks.COPPER_BLOCK, 1), "CCC", "CCC", "CCC", 'C', ModItems.COPPER_INGOT);
+
         GameRegistry.addRecipe(new ItemStack(ModItems.COPPER_HELMET, 1), "CCC", "C C", "   ", 'C', ModItems.COPPER_INGOT);
         GameRegistry.addRecipe(new ItemStack(ModItems.COPPER_HELMET, 1), "   ", "CCC", "C C", 'C', ModItems.COPPER_INGOT);
         GameRegistry.addRecipe(new ItemStack(ModItems.COPPER_CHESTPLATE, 1), "C C", "CCC", "CCC", 'C', ModItems.COPPER_INGOT);
