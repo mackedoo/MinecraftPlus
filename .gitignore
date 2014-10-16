@@ -10,5 +10,7 @@ eclipse/
 .project
 .classpath
 
-*.iml
 .idea/
+*.iml
+*.iws
+*.ipr
