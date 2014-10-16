@@ -4,6 +4,7 @@ package Mod.MinecraftPlus.reference;
 public class Names {
     public static final class Blocks {
         public static final String COPPER_BLOCK = "blockCopper";
+        public static final String COPPER_ORE = "CopperOrer";
     }
 
     public static final class Items {
