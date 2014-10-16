@@ -9,7 +9,7 @@ public class ItemCopperPickaxe extends ItemPickaxe {
     public ItemCopperPickaxe(ToolMaterial p_i45347_1_) {
         super(p_i45347_1_);
         setUnlocalizedName(Names.Tools.COPPER_PICKAXE);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
         setTextureName(Reference.MOD_ID + ":copper_pickaxe");
     }
 }

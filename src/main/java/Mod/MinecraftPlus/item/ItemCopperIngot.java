@@ -9,7 +9,7 @@ public class ItemCopperIngot extends Item  {
 	
 	public ItemCopperIngot() {
         setUnlocalizedName(Names.Items.COPPER_INGOT);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
 		setTextureName(Reference.MOD_ID + ":copper_ingot");
 	}
 

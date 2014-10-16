@@ -10,7 +10,7 @@ public class ItemCopperSword extends ItemSword {
 	public ItemCopperSword(ToolMaterial p_i45356_1_) {
 		super(p_i45356_1_);
         setUnlocalizedName(Names.Tools.COPPER_SWORD);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
 		setTextureName(Reference.MOD_ID + ":copper_sword");
 	}
 

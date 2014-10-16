@@ -10,7 +10,7 @@ public class ItemCopperHoe extends ItemHoe {
 	public ItemCopperHoe(ToolMaterial p_i45343_1_) {
 		super(p_i45343_1_);
         setUnlocalizedName(Names.Tools.COPPER_HOE);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
 		setTextureName(Reference.MOD_ID + ":copper_hoe");
 	}
 

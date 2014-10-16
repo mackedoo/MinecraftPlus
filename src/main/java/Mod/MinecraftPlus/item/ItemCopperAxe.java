@@ -10,7 +10,7 @@ public class ItemCopperAxe extends ItemAxe {
         super(p_i45327_1_);
 
         setUnlocalizedName(Names.Tools.COPPER_AXE);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
         setTextureName(Reference.MOD_ID + ":copper_axe");
     }
 }

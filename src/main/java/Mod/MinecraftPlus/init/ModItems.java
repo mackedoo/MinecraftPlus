@@ -1,5 +1,6 @@
 package Mod.MinecraftPlus.init;
 
+import Mod.MinecraftPlus.item.armor.ArmorCopper;
 import Mod.MinecraftPlus.reference.Materials;
 import Mod.MinecraftPlus.item.*;
 import Mod.MinecraftPlus.reference.Names;
@@ -19,7 +20,11 @@ public class ModItems {
     public static final Item COPPER_SWORD = new ItemCopperSword(Materials.Tools.COPPER);
     
     //Armor
-    public static final Item COPPER_HELMET = new ArmorCopper(Materials.Armor.COPPER);
+    public static final Item COPPER_HELMET = new ArmorCopper(0);
+    public static final Item COPPER_CHESTPLATE = new ArmorCopper(1);
+    public static final Item COPPER_LEGGINGS = new ArmorCopper(2);
+    public static final Item COPPER_BOOTS = new ArmorCopper(3);
+
     public static void init() {
         initItems();
         initTools();
@@ -28,8 +33,10 @@ public class ModItems {
 
     private static void initArmor() {
     	GameRegistry.registerItem(COPPER_HELMET, Names.Armor.COPPER_HELMET);
-		
-	}
+        GameRegistry.registerItem(COPPER_CHESTPLATE, Names.Armor.COPPER_CHESTPLATE);
+        GameRegistry.registerItem(COPPER_LEGGINGS, Names.Armor.COPPER_LEGGINGS);
+        GameRegistry.registerItem(COPPER_BOOTS, Names.Armor.COPPER_BOOTS);
+    }
 
 	// Register the items
     private static void initItems() {

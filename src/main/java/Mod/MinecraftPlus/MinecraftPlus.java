@@ -12,6 +12,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.util.EnumHelper;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class MinecraftPlus {
@@ -19,7 +20,7 @@ public class MinecraftPlus {
     public static CommonProxy proxy;
 
     //Creative Tabs
-    public static CreativeTabs MinecraftPlusTab = new MinecraftPlusTab(CreativeTabs.getNextID(), Names.Tabs.MINECRAFTPLUS_TAB);
+    public static CreativeTabs MINECRAFTPLUS_TAB = new MinecraftPlusTab(CreativeTabs.getNextID(), Names.Tabs.MINECRAFTPLUS_TAB);
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -30,6 +31,8 @@ public class MinecraftPlus {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         Recipes.init();
+
+        proxy.initRendering();
     }
 
     @Mod.EventHandler

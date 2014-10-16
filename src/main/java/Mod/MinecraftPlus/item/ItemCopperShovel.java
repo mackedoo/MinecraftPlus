@@ -9,7 +9,7 @@ public class ItemCopperShovel extends ItemSpade {
     public ItemCopperShovel(ToolMaterial p_i45353_1_) {
         super(p_i45353_1_);
         setUnlocalizedName(Names.Tools.COPPER_SHOVEL);
-        setCreativeTab(MinecraftPlus.MinecraftPlusTab);
+        setCreativeTab(MinecraftPlus.MINECRAFTPLUS_TAB);
         setTextureName(Reference.MOD_ID + ":copper_shovel");
     }
 }

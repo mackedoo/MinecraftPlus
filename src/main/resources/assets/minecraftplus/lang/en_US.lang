@@ -1,8 +1,15 @@
 tile.blockCopper.name=Block of Copper
+
 item.ingotCopper.name=Copper Ingot
 item.axeCopper.name=Copper Axe
 item.hoeCopper.name=Copper Hoe
 item.pickaxeCopper.name=Copper Pickaxe
 item.shovelCopper.name=Copper Shovel
 item.swordCopper.name=Copper Sword
+
+item.helmetCopper.name=Copper Helmet
+item.chestplateCopper.name=Copper Chestplate
+item.leggingsCopper.name=Copper Leggings
+item.bootsCopper.name=Copper Boots
+
 itemGroup.tabMinecraftPlus=Minecraft Plus
