@@ -1,6 +1,6 @@
- package Mod.MinecraftPlus.CreativeTabs;
+ package Mod.MinecraftPlus.creativetab;
 
-import Mod.MinecraftPlus.MainClass;
+import Mod.MinecraftPlus.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -12,7 +12,7 @@ public class MinecraftPlusTab extends CreativeTabs {
 
 	@Override
 	public Item getTabIconItem() {
-		return MainClass.CopperIngot;
+		return ModItems.COPPER_INGOT;
 	}
 
 }

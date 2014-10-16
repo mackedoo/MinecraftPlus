@@ -17,12 +17,15 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "0.01dev" // dev=UNSTABLE
-group= "me.mackedoo.minecraftplus" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "0.01"
+group = "me.mackedoo.minecraftplus" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MinecraftPlus"
 
 minecraft {
     version = "1.7.10-10.13.0.1180"
+
+    replaceIn "reference/Reference.java"
+    replace "@VERSION@", "${project.version}"
 }
 
 dependencies {
@@ -41,7 +44,7 @@ processResources
         include 'mcmod.info'
                 
         // replace version and mcversion
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand 'mod_version':project.version, 'minecraft_version':project.minecraft.version
     }
         
     // copy everything else, thats not the mcmod.info
