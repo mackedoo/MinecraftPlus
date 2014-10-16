@@ -1,9 +1,7 @@
- package Mod.MinecraftPlus;
+package Mod.MinecraftPlus;
 
 public class CommonProxy {
-	
-	public static void renderStuff() {
+    public static void renderStuff() {
 
-	}
-
+    }
 }
