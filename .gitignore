@@ -1,8 +1,14 @@
 *.txt
+
 build/
 bin/
+
 eclipse/
 .gradle/
 .settings/
+
 .project
 .classpath
+
+*.iml
+.idea/
