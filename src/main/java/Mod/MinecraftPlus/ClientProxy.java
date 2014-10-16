@@ -1,11 +1,10 @@
 package Mod.MinecraftPlus;
 
-import cpw.mods.fml.client.registry.ClientRegistry;
-import net.minecraftforge.client.MinecraftForgeClient;
+import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {
     @Override
     public void initRendering() {
-        Armor
+        RenderingRegistry.addNewArmourRendererPrefix("CopperArmor");
     }
 }

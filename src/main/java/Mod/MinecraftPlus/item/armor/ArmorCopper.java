@@ -1,10 +1,14 @@
 package Mod.MinecraftPlus.item.armor;
 
 import Mod.MinecraftPlus.MinecraftPlus;
+import Mod.MinecraftPlus.init.ModItems;
 import Mod.MinecraftPlus.reference.Materials;
 import Mod.MinecraftPlus.reference.Names;
 import Mod.MinecraftPlus.reference.Reference;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
 
 public class ArmorCopper extends ItemArmor {
     public ArmorCopper(int armorType) {
@@ -29,6 +33,17 @@ public class ArmorCopper extends ItemArmor {
                 setTextureName(Reference.MOD_ID + ":copper_boots");
                 break;
         }
+    }
 
+    @Override
+    public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
+        Item item = stack.getItem();
+        if (item == ModItems.COPPER_HELMET || item == ModItems.COPPER_CHESTPLATE || item == ModItems.COPPER_BOOTS) {
+            return Reference.MOD_ID + ":textures/armor/copper_layer_1.png";
+        } else if (item == ModItems.COPPER_LEGGINGS) {
+            return Reference.MOD_ID + ":textures/armor/copper_layer_2.png";
+        } else {
+            return null;
+        }
     }
 }
