@@ -1,0 +1,16 @@
+ [
+{
+  "modid": "MinecraftPlus",
+  "name": "MinecraftPlus ",
+  "description": "More of Minecraft!.",
+  "version": "${1.0}",
+  "mcversion": "${1.7.10}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MackEdoo"],
+  "credits": "Shaqruden, for his awsome modding tutorials ",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
