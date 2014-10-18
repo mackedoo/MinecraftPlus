@@ -9,7 +9,7 @@ import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.Random;
 
-public abstract class MinecraftPlusTree extends WorldGenAbstractTree {
+public class MinecraftPlusTree extends WorldGenAbstractTree {
     private Block log;
     private Block leaf;
     private int minTreeHeight;
