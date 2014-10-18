@@ -1,7 +1,9 @@
 package Mod.MinecraftPlus.world;
 
+import Mod.MinecraftPlus.world.gen.MinecraftPlusTree;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
+import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
 import java.util.Random;
@@ -27,6 +29,16 @@ public abstract class AbstractGenerator {
             int beginY = random.nextInt(maxY - minY) + minY;
             int beginZ = z + random.nextInt(16);
             generateOreVein(block, maxVein, world, random, beginX, beginY, beginZ);
+        }
+    }
+
+    protected void generateStandardTree(MinecraftPlusTree tree, World world, Random random, int trees, int x, int z, int maxY) {
+        for (int l = 0; l < trees; ++l) {
+            int beginX = x + random.nextInt(16);
+            int beginY = random.nextInt(maxY);
+            int beginZ = z + random.nextInt(16);
+
+            tree.generate(world, random, beginX, beginY, beginZ);
         }
     }
 }
