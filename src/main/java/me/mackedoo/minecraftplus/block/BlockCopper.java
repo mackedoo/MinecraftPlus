@@ -1,8 +1,8 @@
-package Mod.MinecraftPlus.block;
+package me.mackedoo.minecraftplus.block;
 
-import Mod.MinecraftPlus.MinecraftPlus;
-import Mod.MinecraftPlus.reference.Names;
-import Mod.MinecraftPlus.reference.Reference;
+import me.mackedoo.minecraftplus.MinecraftPlus;
+import me.mackedoo.minecraftplus.reference.Names;
+import me.mackedoo.minecraftplus.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 

@@ -1,8 +1,8 @@
-package Mod.MinecraftPlus.item;
+package me.mackedoo.minecraftplus.item;
 
-import Mod.MinecraftPlus.MinecraftPlus;
-import Mod.MinecraftPlus.reference.Names;
-import Mod.MinecraftPlus.reference.Reference;
+import me.mackedoo.minecraftplus.MinecraftPlus;
+import me.mackedoo.minecraftplus.reference.Names;
+import me.mackedoo.minecraftplus.reference.Reference;
 import net.minecraft.item.ItemSpade;
 
 public class ItemCopperShovel extends ItemSpade {

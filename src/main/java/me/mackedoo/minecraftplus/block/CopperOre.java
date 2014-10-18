@@ -1,10 +1,10 @@
-package Mod.MinecraftPlus.block;
+package me.mackedoo.minecraftplus.block;
 
+import me.mackedoo.minecraftplus.MinecraftPlus;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import Mod.MinecraftPlus.MinecraftPlus;
-import Mod.MinecraftPlus.reference.Names;
-import Mod.MinecraftPlus.reference.Reference;
+import me.mackedoo.minecraftplus.reference.Names;
+import me.mackedoo.minecraftplus.reference.Reference;
 
 public class CopperOre extends Block {
     public CopperOre(Material arg0) {

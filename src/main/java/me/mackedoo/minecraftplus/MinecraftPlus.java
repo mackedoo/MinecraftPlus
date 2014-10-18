@@ -1,12 +1,12 @@
-package Mod.MinecraftPlus;
+package me.mackedoo.minecraftplus;
 
-import Mod.MinecraftPlus.creativetab.MinecraftPlusTab;
-import Mod.MinecraftPlus.init.ModBlocks;
-import Mod.MinecraftPlus.init.ModItems;
-import Mod.MinecraftPlus.init.Recipes;
-import Mod.MinecraftPlus.reference.Names;
-import Mod.MinecraftPlus.reference.Reference;
-import Mod.MinecraftPlus.world.MinecraftPlusWorldGenerator;
+import me.mackedoo.minecraftplus.creativetab.MinecraftPlusTab;
+import me.mackedoo.minecraftplus.init.ModBlocks;
+import me.mackedoo.minecraftplus.init.ModItems;
+import me.mackedoo.minecraftplus.init.Recipes;
+import me.mackedoo.minecraftplus.reference.Names;
+import me.mackedoo.minecraftplus.reference.Reference;
+import me.mackedoo.minecraftplus.world.MinecraftPlusWorldGenerator;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -14,8 +14,6 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.util.EnumHelper;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class MinecraftPlus {

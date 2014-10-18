@@ -1,9 +1,8 @@
-package Mod.MinecraftPlus.world;
+package me.mackedoo.minecraftplus.world;
 
-import Mod.MinecraftPlus.world.gen.MinecraftPlusTree;
+import me.mackedoo.minecraftplus.world.gen.MinecraftPlusTree;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
-import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
 import java.util.Random;

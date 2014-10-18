@@ -1,10 +1,10 @@
-package Mod.MinecraftPlus.item.armor;
+package me.mackedoo.minecraftplus.item.armor;
 
-import Mod.MinecraftPlus.MinecraftPlus;
-import Mod.MinecraftPlus.init.ModItems;
-import Mod.MinecraftPlus.reference.Materials;
-import Mod.MinecraftPlus.reference.Names;
-import Mod.MinecraftPlus.reference.Reference;
+import me.mackedoo.minecraftplus.MinecraftPlus;
+import me.mackedoo.minecraftplus.init.ModItems;
+import me.mackedoo.minecraftplus.reference.Materials;
+import me.mackedoo.minecraftplus.reference.Names;
+import me.mackedoo.minecraftplus.reference.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
